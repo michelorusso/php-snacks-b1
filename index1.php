@@ -111,9 +111,6 @@ Olimpia Milano - Cantù | 55-60  -->
     
     <?php for($i = 0; $i < count ($arrayCalendar); $i++) { ?>
         <?php $match = $arrayCalendar[$i];?>
-         <!-- <?php var_dump($match)?> -->
-
-        
 
         <li style=" padding: 10px 0">
          <?php echo $match['home'] ?> - <?php echo $match['visitingTeam'] ?> | <?php echo $match['home_point'] ?>-<?php echo $match['visitingTeam_point'] ?>
